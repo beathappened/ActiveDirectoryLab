@@ -1,8 +1,27 @@
 <h1>Active Directory Home Lab</h1>
-
-<h2>Description</h2>
-In this lab we're going to walk through how to create an Active Directory home lab Environment using Oracle VirtualBox. Configuring and running this lab will develop your understanding of how Active Directory and Windows networking works.
+<h2>Network Diagram:</h2>
+<br/>
+<p align="center">
+<img src="https://i.imgur.com/M5ngW9H.png" height="80%" width="80%" alt="Network Diagram"/>
 <br />
+<br />
+ 
+<h2>Description</h2>
+This project serves as a demonstrative showcase of adept system administration skills, illustrating proficiency in constructing and managing complex network environments. By meticulously configuring a Microsoft Server to host Active Directory and deploying a Domain Controller, the undertaking underscores adeptness in system architecture and domain management.
+
+The utilization of PowerShell scripting to automate user creation processes showcases a nuanced understanding of automation tools, streamlining administrative tasks and enhancing efficiency. Moreover, the successful integration of Windows 11 Enterprise and the Microsoft Server 2022 ISO within a virtualized environment underscores adaptability and proficiency in deploying contemporary technologies.
+
+Through the seamless orchestration of these components, this project not only exemplifies technical expertise but also highlights the ability to navigate and optimize multifaceted IT landscapes, essential traits for effective system administration.
+<br />
+
+<h2>Learning Objectives</h2>
+
+ -   Understand the fundamental concepts of Active Directory and its role in network administration
+ -   Develop skills in utilizing virtualization software (such as VMWare) to create and manage virtual machines
+ -   Learn to set up and manage a Domain Controller within a network infrastructure
+ -   Develop problem-solving skills through troubleshooting any issues encountered during the setup and configuration process
+ -  Acquire proficiency in using PowerShell scripting to automate administrative tasks within a Windows environment
+ -   Understand domain connectivity principles and authentication mechanisms, exemplified through logging into user accounts within a domain environment
 
 
 <h2>Languages and Utilities Used</h2>
@@ -12,25 +31,17 @@ In this lab we're going to walk through how to create an Active Directory home l
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
-- <b>Server 2019</b> 
-
-
-<h2>Network Diagram:</h2>
-<br/>
-<p align="center">
-<img src="https://i.imgur.com/5F86IV5.jpeg" height="80%" width="80%" alt="Network Diagram"/>
-<br />
-<br />
+- <b>Windows 11 Enterprise</b>
+- <b>Server 2022</b> 
 
 <h2>What You'll Need:</h2>
-<a href= https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019> Server 2019 Iso</a href> <br/>
-<a href= https://www.microsoft.com/en-us/software-download/windows10> Windows 10 ISO</a href>
+<a href= https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022> Server 2022 </a href> <br/>
+<a href= https://www.microsoft.com/en-in/evalcenter/download-windows-11-enterprise> Windows 11 Enterprise</a href>
 <br/>
 <a href= https://www.virtualbox.org/wiki/Downloads> Oracle VirtualBox</a href>
 <br/>
 <a href= "https://github.com/joshmadakor1/AD_PS">PowerShell Script to Populate Userbase</a href>
-<h2>Set Up walk-through:</h2>
+<h2>Lab Walk-through:</h2>
 
 <p align="center">
 Create a new virtual machine by clicking on "New" in VirtualBox, naming it "Domain Controller," and selecting the "Windows Server 2019" ISO file as the boot media: <br/>
